@@ -47,7 +47,7 @@ const App:React.FC = () => {
   return (
     <div className="App">
       <div className="container">
-        <header className='pokemon-header'>Pokemon with TypeScript and PokeAPI</header>
+        <header className='pokemon-header'>Pokemon⚡</header>
         <PokemonCollection pokemons={pokemons} viewDetail={viewDetail} setViewDetail={setViewDetail} />
         { !viewDetail.isOpened && (<button className='btn' onClick={handleLoadMore}>{loading ? 'Loading...' : 'Load more'}</button>) }
       </div>
