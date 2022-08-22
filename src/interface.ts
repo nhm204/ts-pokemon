@@ -1,6 +1,6 @@
 export interface Pokemon {
-  id: number,
-  name: string,
+  id: number
+  name: string
   sprites: {
     front_default: string
   }
@@ -8,7 +8,7 @@ export interface Pokemon {
 
 export interface PokemonDetail extends Pokemon {
   abilities?: {
-    ability:string,
-    name:string,
+    ability:string
+    name:string
   }[]
 }  

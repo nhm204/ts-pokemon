@@ -5,12 +5,12 @@ import PokemonCollection from './components/PokemonCollection';
 import { Pokemon } from './interface';
 
 interface Pokemons {
-  name: string,
+  name: string
   url: string
 }
 
 export interface Detail {
-  id: number,
+  id: number
   isOpened: boolean
 }
 

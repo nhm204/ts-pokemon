@@ -5,8 +5,8 @@ import './pokemon.css';
 import { Detail } from '../App';
 
 interface Props {
-    pokemons: PokemonDetail[],
-    viewDetail: Detail,
+    pokemons: PokemonDetail[]
+    viewDetail: Detail
     setViewDetail: React.Dispatch<React.SetStateAction<Detail>>
 }
 

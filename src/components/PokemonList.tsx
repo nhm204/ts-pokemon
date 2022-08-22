@@ -3,16 +3,16 @@ import { Detail } from '../App';
 import './pokemon.css';
 
 interface Props {
-    id: number,
-    name: string,
-    image: string,
+    id: number
+    name: string
+    image: string
     abilities: 
       | {
-        name: string,
+        name: string
         ability: string
         }[] 
-      | undefined,
-    viewDetail: Detail,
+      | undefined
+    viewDetail: Detail
     setViewDetail: React.Dispatch<React.SetStateAction<Detail>>
 }
 
