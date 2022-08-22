@@ -6,10 +6,12 @@ interface Props {
     id: number,
     name: string,
     image: string,
-    abilities: {
+    abilities: 
+      | {
         name: string,
         ability: string
-    }[] | undefined,
+        }[] 
+      | undefined,
     viewDetail: Detail,
     setViewDetail: React.Dispatch<React.SetStateAction<Detail>>
 }
